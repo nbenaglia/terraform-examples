@@ -6,7 +6,8 @@ $ssh-keygen -f mykey
 ## AWS VARIABLES
 Create a file called terraform.tfvars with this content and right credential to access and operate with Terraform on AWS:
 
-# terraform.tfvars
+
+# TERRAFORM.TFVARS
 AWS_ACCESS_KEY = ""                                                                                                                                  
 AWS_SECRET_KEY = ""                                                                                                              
 AWS_REGION = "eu-west-1"                                                                                                                                                 
