@@ -1,4 +1,4 @@
-resource "aws_instance" "ansible-test" {
+resource "aws_instance" "instance" {
   count         = 4
   ami           = "${lookup(var.AMIS, var.AWS_REGION)}"
   instance_type = "t2.micro"
